@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Tracking</title>
+    <link rel="stylesheet" href="track.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Application Tracking</h1>
+      <div class="app-details">
+        <div class="step"></div>
+        <div class="step"></div>
+        <div class="step"></div>
+      </div>
+      <h2>Applicant's Details</h2>
+      <div class="applicant-details">
+        <div class="detail">
+          <label>Reference No.:</label>
+          <span id="referenceNo">XXXXXXX</span>
+        </div>
+        <div class="detail">
+          <label>Name:</label>
+          <span id="name">Sourav Upadhyay</span>
+        </div>
+        <div class="detail">
+          <label>Bank A/C No.:</label>
+          <span id="bankAccountNo">123XXXXXXX04</span>
+        </div>
+        <div class="detail">
+          <label>Application Submitted On:</label>
+          <span id="submittedOn">XX/XX/XXXX</span>
+        </div>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>S.No.</th>
+            <th>Task Name</th>
+            <th>Action</th>
+            <th>Status</th>
+            <th>Remark</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1.</td>
+            <td>Application Submission</td>
+            <td>Processed</td>
+            <td>Submitted</td>
+            <td>Na</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>Application Received</td>
+            <td>Processed</td>
+            <td>Done</td>
+            <td>Na</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>Application Field Verification</td>
+            <td>Pending</td>
+            <td>Under Process</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>4.</td>
+            <td>Application Approval by Officials</td>
+            <td>Pending</td>
+            <td>Under Process</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>5.</td>
+            <td>Application Forwarded To Bank</td>
+            <td>Pending</td>
+            <td>Under Process</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>6.</td>
+            <td>Payment Status</td>
+            <td>Pending</td>
+            <td>Under Process</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="button-container">
+        <button id="track-another">Track Another</button>
+        <button id="home">Home</button>
+      </div>
+    </div>
+
+    <!-- Embedded JavaScript -->
+    <script>
+      // Add event listener for the Home button
+      document.getElementById("home").addEventListener("click", function() {
+        window.location.href = "index.html"; // Redirect to main page (replace with your main page's file name)
+      });
+    </script>
+  </body>
+</html>

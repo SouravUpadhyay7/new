@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="studentPortfolio.css">
+</head>
+<body>
+    <header>
+        <h1>Student Portfolio</h1>
+    </header>
+    
+    <main>
+        <section class="personal-details">
+            <h2>Personal Details</h2>
+            <div class="profile">
+                <img src="profilepicsih.png" alt="Profile Photo" id=" profile-photo">
+                <div class="details">
+                    <p><strong>Name:</strong> John Doe</p>
+                    <p><strong>Aadhar No:</strong> 123456789012</p>
+                    <p><strong>D.O.B:</strong> 01/01/2000</p>
+                    <p><strong>Mobile:</strong> +911234567890</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="signature-upload">
+            <h2>Upload Signature</h2>
+            <form id="signature-form">
+                <input type="file" id="signature" name="signature" accept="image/*">
+                <button type="submit">Upload</button>
+            </form>
+        </section>
+        
+        <section class="uploaded-documents">
+            <h2>Uploaded Documents</h2>
+            <ul>
+                <li><a href="" download>Document 1</a></li>
+                <li><a href="" download>Document 2</a></li>
+                <li><a href="" download>Document 3</a></li>
+            </ul>
+        </section>
+        
+        <div class="button-container">
+            <button onclick="window.location.href='updateDetails.html'">Update Details</button>
+            <button onclick="window.location.href='index.html'">Home</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Powered By BinaryExecutor's © all rights reserved</p>
+    </footer>
+
+    <script>
+        // Add JavaScript code here if needed
+    </script>
+</body>
+</html>
